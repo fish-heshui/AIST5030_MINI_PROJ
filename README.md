@@ -1,7 +1,3 @@
-- 这是为你根据刚才讨论的“稳健版”实验数据填充完整的 `README.md`。它现在看起来非常专业且具有说服力。
-
-  ------
-
   # Medical QA Finetuning with Qwen2.5 & OFT
 
   This project implements **Orthogonal Finetuning (OFT)** on the **Qwen2.5-1.5B-Instruct** model using the **MedQuAD** dataset. By learning an orthogonal transformation matrix, we adapt the large language model to the medical domain while preserving its pre-trained knowledge distribution.
