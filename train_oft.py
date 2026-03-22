@@ -5,8 +5,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments,
 from datasets import load_dataset
 from peft import OFTConfig, get_peft_model
 from modelscope import snapshot_download
+import os
 
-HF_TOKEN = ""
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 logging.basicConfig(
     level=logging.INFO,

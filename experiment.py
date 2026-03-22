@@ -7,8 +7,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 from datasets import load_dataset
 from tqdm import tqdm
+import os
 
-HF_TOKEN = ""
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 class QwenEvaluator:
     def __init__(
