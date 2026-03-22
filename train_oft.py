@@ -6,7 +6,7 @@ from datasets import load_dataset
 from peft import OFTConfig, get_peft_model
 from modelscope import snapshot_download
 
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 logging.basicConfig(
     level=logging.INFO,

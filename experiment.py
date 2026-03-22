@@ -8,7 +8,7 @@ from peft import PeftModel
 from datasets import load_dataset
 from tqdm import tqdm
 
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 class QwenEvaluator:
     def __init__(
