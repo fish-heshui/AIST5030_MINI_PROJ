@@ -1,0 +1,3 @@
+source /etc/network_turbo
+nohup python train_oft.py > ./results/train_oft.log 2>&1 &
+nohup python experiment.py > ./results/experiment.log 2>&1 &
