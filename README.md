@@ -61,8 +61,9 @@
   ## 📊 Experimental Results
 
   ### Training Loss Curve
+<img width="1000" height="600" alt="loss_curve" src="https://github.com/user-attachments/assets/8e1504bd-c69d-474b-9640-0423d2694c84" />
 
-  ![loss_curve](D:\markdown_pics\loss_curve.png)
+  
 
   ### Quantitative Metrics (Test set N=100)
 
